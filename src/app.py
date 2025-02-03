@@ -4,7 +4,7 @@ from werkzeug.security import generate_password_hash
 from bson import json_util, ObjectId
 
 app = Flask(__name__)
-app.config['MONGO_URI'] = 'mongodb+srv://minguitojefe:12345@cluster0.nxdnc.mongodb.net/'
+app.config['MONGO_URI'] = 'mongodb+srv://minguitojefe:12345@cluster0.nxdnc.mongodb.net/pythonmongodb'
 
 mongo = PyMongo(app)
 
